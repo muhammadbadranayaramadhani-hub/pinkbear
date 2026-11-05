@@ -1,8 +1,20 @@
-# pinkbear
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-## Tempat dimana kita melakukan coba-coba dan eksperimen
-### Collaborator Team KOPKOPEN
-* Mas Naya
-* Nopal
-* Fren
-* Ray
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/742bd4e1-c204-4bfe-ae09-fb878a26c8e5
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
