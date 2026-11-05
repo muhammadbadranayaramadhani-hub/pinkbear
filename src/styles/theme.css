@@ -1,0 +1,48 @@
+/* Dream Archive — token desain MYSTERIA.
+   Satu tampilan gelap yang disengaja (malam di akademi), jadi tidak ada varian terang. */
+:root {
+  /* Palet utama (wajib) */
+  --midnight: #22243D;
+  --lavender: #7776A8;
+  --mist: #A9B8DF;
+  --dream: #E7DDF5;
+  --paper: #F4EEDC;
+  --rose: #C8A9C8;
+  --sage: #91B9B4;
+  --gold: #D9AD75;
+
+  /* Turunan */
+  --night: #181A2E;
+  --night-2: #1D1F37;
+  --panel: #262845;
+  --panel-2: #2C2E50;
+  --glass: rgba(29, 31, 55, 0.88);
+  --line: rgba(217, 173, 117, 0.38);
+  --line-soft: rgba(169, 184, 223, 0.2);
+  --text: var(--dream);
+  --text-soft: var(--mist);
+  --text-dim: #9CA0C8;
+  --ink: #2B2742;
+  --ink-soft: #5B5470;
+  --gold-deep: #A9763F;
+  --sage-deep: #3F6F68;
+  --rose-deep: #8E5F8E;
+
+  /* Tipografi */
+  --f-display: 'Cinzel', 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  --f-body: 'Nunito Sans', 'Segoe UI', system-ui, -apple-system, Roboto, sans-serif;
+  --f-mono: 'DM Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+
+  /* Ukuran & ritme */
+  --gutter: max(16px, env(safe-area-inset-left, 0px));
+  --gutter-r: max(16px, env(safe-area-inset-right, 0px));
+  --radius: 4px;
+  --radius-lg: 10px;
+  --shadow: 0 18px 50px rgba(6, 7, 18, 0.55);
+  --glow: 0 0 24px rgba(169, 184, 223, 0.35);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  color-scheme: dark;
+}
+
+html[data-textsize='besar'] { font-size: 112.5%; }
